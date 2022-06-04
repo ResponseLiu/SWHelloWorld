@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/402663459@qq.com/SWHelloWorld'
+  s.homepage         = 'https://github.com/ResponseLiu/SWHelloWorld'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '402663459@qq.com' => '1940804375@qq.com' }
-  s.source           = { :git => 'https://github.com/402663459@qq.com/SWHelloWorld.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ResponseLiu/SWHelloWorld.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'

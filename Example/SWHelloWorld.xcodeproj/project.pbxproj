@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1596575F998F16DFD8F7259C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		463F0D8CF0CC30C3CF4F1806 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1596575F998F16DFD8F7259C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		463F0D8CF0CC30C3CF4F1806 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4E1F8A5829126A5E964FF761 /* Pods-SWHelloWorld_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWHelloWorld_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SWHelloWorld_Tests/Pods-SWHelloWorld_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SWHelloWorld_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWHelloWorld_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		9E19B97D585DCAFE41AE49C7 /* Pods_SWHelloWorld_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWHelloWorld_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F27B6589337E473A8B794B /* Pods-SWHelloWorld_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWHelloWorld_Example.debug.xcconfig"; path = "Target Support Files/Pods-SWHelloWorld_Example/Pods-SWHelloWorld_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C3D32385A880B88010B40D16 /* Pods-SWHelloWorld_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWHelloWorld_Tests.release.xcconfig"; path = "Target Support Files/Pods-SWHelloWorld_Tests/Pods-SWHelloWorld_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D441901F37D7794EBFDFF91E /* SWHelloWorld.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SWHelloWorld.podspec; path = ../SWHelloWorld.podspec; sourceTree = "<group>"; };
+		D441901F37D7794EBFDFF91E /* SWHelloWorld.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SWHelloWorld.podspec; path = ../SWHelloWorld.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				4E1F8A5829126A5E964FF761 /* Pods-SWHelloWorld_Tests.debug.xcconfig */,
 				C3D32385A880B88010B40D16 /* Pods-SWHelloWorld_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
